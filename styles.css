@@ -48,6 +48,7 @@
 }
 
 
+/* mobile first */
 * {
     padding: 0;
     margin: 0;
@@ -68,7 +69,7 @@ h1 {
     font-family: "Salsa", cursive;
     font-weight: 700;
     font-style: normal;
-    font-size: 12em;
+    font-size: 3rem;
 
     animation-name: fontColor;
     animation-duration: 8s;
@@ -79,14 +80,8 @@ h1 {
     /* animation-duration: ; */
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 768px) {
     h1 {
-        font-size: 3em;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 7em;
+        font-size: 7rem;
     }
 }
